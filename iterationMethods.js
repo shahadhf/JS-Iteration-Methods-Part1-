@@ -20,6 +20,8 @@ const greaterThanOrEqual = numbers.filter(function (num) {
   return num >= 25;
 });
 
+
+
 // Question??  should i use greaterthanequal.push (numbers[i]) or what I did was correct?
 
 
@@ -95,4 +97,10 @@ const answers = numbers
 .filter((num) => num % 5 === 0)
   .map ((num) => {
     return num *3;
-  });
+  }); 
+
+
+  /*
+
+
+
